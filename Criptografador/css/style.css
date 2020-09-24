@@ -1,0 +1,84 @@
+/* Configurações globais */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Configurações para o corpo da página */
+body{
+    background-image: url('../img/wallpaper.jpg');
+    background-size: cover;
+}
+/* Configurações para o cabeçalho */
+header{
+    color: white;
+    font: normal 20pt Helvetica;
+    text-align: center;
+    margin-top: 50px;
+}
+/* Configurações para a section */
+section{
+    background-color: white;
+    width: 500px;
+    height: 345px;
+    margin: auto;
+    border-radius: 20px;
+}
+/* Configurações para o rotapé */
+footer{
+    color: white;
+    font: italic 15pt Helvetica;
+    text-align: center;
+}
+/* Configurações gerais para as ivs 'data' e 'res' */
+div#data{
+    padding: 23px;
+    font: normal 14pt Helvetica;
+}
+div#res{
+    padding: 23px;
+    font: normal 14pt Helvetica;
+}
+
+/* Configurações para os inputs de texto, número e botão */
+input#txtFrase{
+    border-radius:10px;
+    border-style: solid;
+    border-color: rgba(209, 209, 209, 0.192);
+    box-shadow: 2px 2px 3px gray;
+    width: 350px;
+    height: 25px;
+    padding-left: 6px;
+    margin-left: 5px;
+}
+input#txtChave{
+    border-radius:10px;
+    border-style: solid;
+    border-color: rgba(209, 209, 209, 0.192);
+    box-shadow: 2px 2px 3px gray;
+    width: 100px;
+    height: 25px;
+    padding-left:6px;
+}
+input#btCript{
+    color: white;
+    background-color:rgb(49, 114, 49);
+    border-radius: 25px;
+    border-style: groove;
+    border-color:rgba(44, 99, 44, 0.459);
+    box-shadow: 2px 2px 4px rgb(134, 134, 134);
+    width: 110px;
+    height: 40px;
+}
+
+/* Configurações para o resultado */
+
+textarea#txtCriptografado{
+    font: normal 12pt Helvetica;
+    border-radius:10px;
+    border-style: solid;
+    border-color: rgba(209, 209, 209, 0.192);
+    box-shadow: 2px 2px 3px gray;
+    width: 420px;
+    height: 75px;
+    padding: 10px;
+}

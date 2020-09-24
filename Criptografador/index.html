@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pb-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="fonte_nova">Criptografador</h1>
+    </header>
+    
+   <br> <section>
+        <div id="data">
+            <p>Texto:
+                <input type="text" id="txtFrase">
+            </p>
+            <br>
+            <p>Chave:
+                <input type="number" id="txtChave">
+            </p>
+            <br>
+            <p>
+                <input type="button" value="Criptografar" id="btCript" onclick="criptografar()">
+            </p>
+        </div> 
+        <div id="res">
+            <p>Resultado:
+                <br>
+                <textarea id="txtCriptografado"></textarea>
+            </p>
+        </div>      
+    </section>
+    <br>
+    <footer>
+        <p>©Copyright - Developed by Paulo G.</p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
